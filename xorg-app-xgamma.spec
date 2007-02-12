@@ -1,5 +1,5 @@
 Summary:	xgamma application
-Summary(pl.UTF-8):   Aplikacja xgamma
+Summary(pl.UTF-8):	Aplikacja xgamma
 Name:		xorg-app-xgamma
 Version:	1.0.1
 Release:	1
