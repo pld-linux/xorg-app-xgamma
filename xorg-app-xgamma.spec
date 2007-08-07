@@ -1,12 +1,12 @@
 Summary:	xgamma application
 Summary(pl.UTF-8):	Aplikacja xgamma
 Name:		xorg-app-xgamma
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xgamma-%{version}.tar.bz2
-# Source0-md5:	45d8fa3c85d4bfda87251798fd605a45
+# Source0-md5:	f13ddedaa63a608d3b025d326f4f5b5d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
