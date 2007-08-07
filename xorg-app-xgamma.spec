@@ -1,5 +1,5 @@
-Summary:	xgamma application
-Summary(pl.UTF-8):	Aplikacja xgamma
+Summary:	xgamma application - alter a monitor's gamma correction through X server
+Summary(pl.UTF-8):	Aplikacja xgamma - zmiana korekcji gamma monitora poprzez serwer X
 Name:		xorg-app-xgamma
 Version:	1.0.2
 Release:	1
@@ -16,10 +16,14 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xgamma application.
+xgamma program allows X users to query and alter the gamma correction
+of a monitor via the X video mode extension
+(XFree86-VidModeExtension).
 
 %description -l pl.UTF-8
-Aplikacja xgamma.
+Program xgamma pozwala użytkownikom X sprawdzać i modyfikować korekcję
+gamma monitora poprzez rozszerzenie X związane z trybem obrazu
+(XFree86-VidModeExtension).
 
 %prep
 %setup -q -n xgamma-%{version}
