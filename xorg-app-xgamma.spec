@@ -1,12 +1,12 @@
 Summary:	xgamma application - alter a monitor's gamma correction through X server
 Summary(pl.UTF-8):	Aplikacja xgamma - zmiana korekcji gamma monitora poprzez serwer X
 Name:		xorg-app-xgamma
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xgamma-%{version}.tar.xz
-# Source0-md5:	41afaa5a68cdd0de7e7ece4805a37f11
+# Source0-md5:	687e42aa5afaec37f14da3072651c635
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
